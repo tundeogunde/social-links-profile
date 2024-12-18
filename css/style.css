@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Inter", "Figtree";
+  background-color: #141414;
+}
+
+main {
+  padding: 0 15px;
+}
+
+.container {
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_card {
+  width: 285px;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile_card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.full_name {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.location {
+  font-size: 15px;
+  color: #7590eb;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.profile_card p {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #333333;
+  color: #ffffff;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+button:focus {
+  outline: 1px solid #5476e9; /* Add a custom focus outline */
+  outline-offset: 1px; /* Create space between the outline and button */
+  background-color: #5476e9; /* Optional: Change background on focus */
+  color: #1f1f1f;
+}
+
+button:hover {
+  background-color: #7590eb;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
